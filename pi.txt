@@ -1,0 +1,5 @@
+This iteration uses 100000 points.
+74937 of them fell inside the unit circle shown in red.
+The approximation was formulated by dividing those two figures.
+See https://en.wikipedia.org/wiki/Approximations_of_%CF%80#Summing_a_circle's_area for more information.
+ 
