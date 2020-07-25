@@ -3,7 +3,6 @@ from math import sqrt
 from matplotlib import pyplot as plt
 import numpy as np
 
-# TODO add comments and documentation
 # TODO consider adding animations
 
 
@@ -31,8 +30,8 @@ def makePi(accuracy: int) -> float:
 
         pts += 1
 
-    # ensures matplotlib window is 1:1 (preserves circle function)
-    plt.figure(figsize=(7, 7))
+    # ensures matplotlib window is 1:1 (preserves proportions of circle function)
+    plt.figure(figsize=(6, 6))
 
     plt.plot(np.linspace(0, 1, 9999), (1 - np.linspace(0, 1, 9999)**2)**0.5, c='r', linewidth='1')
     plt.fill_between(np.linspace(0, 1, 9999), (1 - np.linspace(0, 1, 9999)**2)**0.5, color='#f7dfdf')
