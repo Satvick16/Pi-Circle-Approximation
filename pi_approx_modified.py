@@ -34,7 +34,7 @@ def makePi(accuracy: int) -> float:
     plt.figure(figsize=(6, 6))
 
     # plot all points
-    plt.scatter(x_pts, y_pts, s=0.05, color='black', marker='o')
+    plt.scatter(x_pts, y_pts, s=0.2, color='black', marker='o')
 
     # set axes limits
     plt.xlim(-1.1, 1.1)
@@ -80,7 +80,7 @@ def writing_to_file(pts, pi):
 
 
 def main():
-    print(makePi(99999))
+    print(makePi(9999))
 
 
 if __name__ == "__main__":
