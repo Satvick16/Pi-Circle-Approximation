@@ -1,6 +1,6 @@
 # Pi-Approximation
 
-These programs approximates pi by placing random points on a circle and determining the ratio between number of points inside the circle and the number of points outside the circle. If a full circle is used, pi = (# pts inside)/(# pts in total).
+These programs approximate pi by placing random points on a circle and determining the ratio between number of points inside the circle and the number of points outside the circle. If a full circle is used, pi = (# pts inside)/(# pts in total).
 
 ![Sample output 1](https://github.com/satvick16/pi-circle-approximation/blob/master/pi_sample_output.png?raw=true)
 ![Sample output 2](https://github.com/satvick16/pi-circle-approximation/blob/master/pi_modified_sample_output.png?raw=true)
